@@ -3,3 +3,16 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: 'Pattaya', sans-serif;
+}
+
+header {
+   font-size: 2em;
+   background-color: #cf576b;
+   text-align: center;
+   color: #fff;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+}
