@@ -15,4 +15,15 @@ header {
    color: #fff;
    text-transform: capitalize;
    letter-spacing: 3px;
+   padding: 10px;
+}
+
+.imagen {
+ margin: 0 auto;
+ width: 100%;
+}
+
+img {
+    width: 40%;
+    margin: 0 auto;
 }

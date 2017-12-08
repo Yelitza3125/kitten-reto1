@@ -14,11 +14,14 @@
     width: 100%;
   }
   
+  /*
   .row::after {
     content: "";
     display: table;
     clear: both;
   }
+
+  */
   
   [class*='col-'] {
     float: left;
