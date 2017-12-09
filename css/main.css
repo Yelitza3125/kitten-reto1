@@ -43,7 +43,7 @@ header {
 }
 
 footer h2 {
-    font-family: sans-serif;
+    font-family: 'Ruluko', sans-serif;
     font-style: italic;
 }
 
@@ -59,7 +59,7 @@ footer h2 {
     }
 
     .kitten {
-        margin-top: 15%;
+        margin-top: 25%;
         margin-left: 25%;
         background-image: url("../assets/images/kitten-medium.png");
         background-size: 100% 60%;
@@ -83,11 +83,12 @@ footer h2 {
     }
 
     .kitten {
-        margin-top: 35%;
-        width: 60%; 
+        margin-top: inherit;
+        width: 60%;
+        height: 400px; 
         margin-left: 20%;
         background-image: url("../assets/images/kitten-small.png");
-        background-size: 100% 80%;
+        background-size: 100% 70%;
     }
 
 }
