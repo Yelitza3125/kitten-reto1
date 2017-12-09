@@ -32,15 +32,20 @@ header {
 
 .kitten {
     width: 50%;
-    padding-bottom: 75%;
+    padding-bottom: 55%;
     margin-top: 20%;
     background-image: url("../assets/images/kitten-large.png");
     background-repeat: no-repeat;
-    background-size: 500px 300px;
+    background-size: 100% 50%;
 }
 
 
 @media screen and (max-width: 992px) {
+
+    header {
+        background-color: #fdfb5d;
+        color: #cf576b;
+    }
     .imagen {
         background-image: url("../assets/images/sunny-day.jpg");
     }
@@ -48,7 +53,7 @@ header {
     .kitten {
         margin-left: 25%;
         background-image: url("../assets/images/kitten-medium.png");
-        background-size: 400px 300px;
+        background-size: 100% 60%;
     }
 
 }
@@ -57,6 +62,8 @@ header {
 
     header {
         font-size: 1em;
+        background-color: #2b6c77;
+        color: #fdfb5d;;
     }
     
     
@@ -69,7 +76,7 @@ header {
         width: 60%; 
         margin-left: 20%;
         background-image: url("../assets/images/kitten-small.png");
-        background-size: 100% 60%;
+        background-size: 100% 70%;
     }
 
 }
