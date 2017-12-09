@@ -46,10 +46,30 @@ header {
     }
 
     .kitten {
-        
         margin-left: 25%;
         background-image: url("../assets/images/kitten-medium.png");
         background-size: 400px 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        font-size: 1em;
+    }
+    
+    
+    .imagen {
+        background-image: url("../assets/images/night.jpg");
+    }
+
+    .kitten {
+        margin-top: 45%;
+        width: 60%; 
+        margin-left: 20%;
+        background-image: url("../assets/images/kitten-small.png");
+        background-size: 100% 60%;
     }
 
 }
